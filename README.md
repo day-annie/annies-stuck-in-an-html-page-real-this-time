@@ -1,2 +1,2 @@
-# annies-stuck-in-an-html-page.github.io
+# annies-stuck-in-an-html-page
 My IT class project
