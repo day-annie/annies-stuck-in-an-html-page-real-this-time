@@ -1,0 +1,88 @@
+<head>
+  <title>Basics of HTML</title>
+  <style>
+    body {
+      text-align:center;
+      background-image: url("the-page-images/background.png");
+    }
+  </style>
+</head>
+
+<body>
+  <div style="text-align:center; border:3px solid #eaf5fa; background-color:#3299cd; color:#eaf5fa; font-family:courier">
+    <h1>Basics of HTML</h1>
+  </div>
+  <p style="font-family:'Gill Sans', verdana, sans-serif; color:#0d563b;">"Hmm, "Basics of HTML", you think? Okie. Oh, wow, this is heavy. Let's see..."</p>
+  <div style="text-align:left; border:3px solid #3299cd; background-color:#add6eb; font-family:courier">
+    <h2 style="background-color:#3299cd; color:#eaf5fa;">Table of Contents</h2>
+    <ol>
+      <li>Preparation</li>
+        <ul>
+          <li>Hardware</li>
+          <li>Software</li>
+          <li>Excercises & Stretches</li>
+          <li>Milk</li>
+        </ul>
+
+      <li>Introduction to HTML</li>
+        <ul>
+          <li>How to Make an HTML File</li>
+          <li>Head & Meta Commands</li>
+          <li>Text</li>
+          <li>Images & Moving Pictures</li>
+          <li>Links</li>
+          <li>User Input</li>
+        </ul>
+
+      <li>The Duck</li>
+        <ul>
+          <li>Behavior</li>
+          <li>Diet</li>
+          <li>In Case of Danger of Death</li>
+          <li>Moral Support</li>
+        </ul>
+    </ol>
+  </div>
+
+  <p style="font-family:'Gill Sans', verdana, sans-serif; color:#0d563b;">"Look there, it says "Links"! This has got to be what we're looking for."</p>
+
+  <div style="text-align:left; border:3px solid #3299cd; background-color:#add6eb; font-family:courier">
+    <h3 style="background-color:#3299cd; color:#eaf5fa;">Links</h3>
+    <p>Links are like little springboards your computer uses to hop from one page to another. Without those, the user of your website would be confined to just the title screen, and that would be sad! Links are added using the &lt;a&gt; anchor element. See the table below for an example:</p>
+    <table style="border:3px solid #3299cd; border-collapse:collapse; width:75%; margin-left:auto; margin-right:auto">
+      <tr style="border:3px solid #3299cd">
+        <th>Opening tag</th>
+        <th>Attribute</th>
+        <th>Content</th>
+        <th>Closing tag</th>
+      </tr>
+      <tr style="border:3px solid #3299cd">
+        <td style="border:3px solid #3299cd"><code>&lt;a</code></td>
+        <td style="border:3px solid #3299cd"><code>href="yourlink.com"&gt;</code></td>
+        <td style="border:3px solid #3299cd"><code>Go to yourlink.com to go nowhere!</code></td>
+        <td style="border:3px solid #3299cd; text-align:center"><code>&lt;/a&gt;</code></td>
+      </tr>
+      <tr style="border:3px solid #3299cd">
+        <td colspan="3" style="border:3px solid #3299cd"><code>So you think you can get rid of me so easily, huh? No, no, my dear! You won't be so jolly coding when I get you!</code></td>
+        <td style="border:3px solid #3299cd"><code>- The Duck</code></td>
+      </tr>
+      <tr style="border:3px solid #3299cd">
+        <td colspan="3" style="border:3px solid #3299cd"><code>what i thought we got rid of the duck</code></td>
+        <td style="border:3px solid #3299cd"><code>- jerry</code></td>
+      </tr>
+      <tr style="border:3px solid #3299cd">
+        <td colspan="3" style="border:3px solid #3299cd"><code>whats the assumption were 'jolly coding' anyway</code></td>
+        <td style="border:3px solid #3299cd"><code>- jerry</code></td>
+      </tr>
+    </table>
+    <p>Here's the result: &lt;a href="placeholder.com"&gt;Go to placeholder.com to go nowhere!&lt;/a&gt;</p>
+    <p>Now, try it yourself!</p>
+    <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" method="post" target="_blank">
+      <label>
+        <code>&lt;a
+        <input type="text" placeholder="what's in here? :)" pattern="href=" number="25">
+        "https://www.youtube.com/watch?v=SomeVideo_channel=random" &gt;Clicking this mysterious link is totally a good idea! :)&lt;/a&gt;</code>
+      </label>
+    </form>
+  </div>
+</body>
